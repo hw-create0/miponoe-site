@@ -502,3 +502,9 @@ a { color: inherit; text-decoration: none; }
 }
 .blog-body .wp-block-button__link:hover { transform: translateY(2px); box-shadow: 0 1px 0 #d8c322; }
 .blog-body .wp-block-buttons { text-align: center; margin: 18px 0 24px; }
+/* アイキャッチ・カードサムネイル */
+.eyecatch { border: 1.5px solid #eee; border-radius: 12px; margin: 0 0 20px; width: 100%; }
+.card-thumb img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.card-thumb { padding: 0; }
+.card-body .card-title { font-weight: 800; font-size: .95rem; line-height: 1.5; }
+.card-thumb .card-tag { z-index: 2; }
