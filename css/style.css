@@ -514,7 +514,7 @@ a { color: inherit; text-decoration: none; }
 .global-nav .nav-icon.icon-light { width: 41px; height: 41px; }
 
 /* ヒーロー内コンテンツを下げる */
-.hero-logo, .hero .search-box { transform: translateY(20px); }
+.hero-logo, .hero .search-box { transform: translateY(100px); }
 @media (max-width: 640px) {
-  .hero-logo, .hero .search-box { transform: translateY(10px); }
+  .hero-logo, .hero .search-box { transform: translateY(30px); }
 }
